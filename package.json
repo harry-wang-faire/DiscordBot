@@ -8,9 +8,11 @@
     "body-parser": "^1.18.2",
     "discord.io": "^2.5.3",
     "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
     "is-chinese": "^1.2.5",
     "json-parse": "^1.0.3",
     "winston": "^2.4.1",
-    "youtube-search": "^1.1.0"
+    "youtube-search": "^1.1.0",
+    "ytdl-core": "^0.20.2"
   }
 }
