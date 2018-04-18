@@ -7,7 +7,7 @@ var bodyparser = require('body-parser');
 var jsonparse = require('json-parse');
 var fs = require('fs');
 var ytdl = require('ytdl-core');
-var mongoClient = require('mongodb').Client();
+var mongoClient = require('mongodb').MongoClient;
 var connectionString = "mongodb+srv://admin:admin@bambooalbum-zokjp.mongodb.net/test";
 
 logger.remove(logger.transports.Console);
@@ -22,15 +22,14 @@ var bot = new Discord.Client();
 bot.login(auth.token);
 
 
-function playMusic(args){
-	MongoClient.connect(connectionString, function(err,db){
-		var dbo = db.db("playlist");
-
-	var search_opts = {
+var search_opts = {
 	maxResults: 1,
 	key: 'AIzaSyDMZFukDb8l8UaVa8EtQqUKm22vjzPGItU' 
 	};
-	
+
+function playMusic(args){
+	mongoClient.connect(connectionString, function(err,db){
+	var dbo = db.db("playlist");
 	var search_query = args.slice(0);
 	search_query.splice(0,1);
 	if (isChinese(args[1])){

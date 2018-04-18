@@ -59,3 +59,20 @@
 {"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T20:01:01.571Z"}
 [{"id":"3BBsF7VIQyo","link":"https://www.youtube.com/watch?v=3BBsF7VIQyo","kind":"youtube#video","publishedAt":"2009-11-24T14:21:47.000Z","channelId":"UCiA9R5n9sR06RgGGigkY5RA","channelTitle":"ThePussycatDollsVEVO","title":"The Pussycat Dolls - Hush Hush; Hush Hush","description":"Music video by The Pussycat Dolls performing Hush Hush; Hush Hush. (C) 2009 Pussycat Dolls, LLC.","thumbnails":{"default":{"url":"https://i.ytimg.com/vi/3BBsF7VIQyo/default.jpg","width":120,"height":90},"medium":{"url":"https://i.ytimg.com/vi/3BBsF7VIQyo/mqdefault.jpg","width":320,"height":180},"high":{"url":"https://i.ytimg.com/vi/3BBsF7VIQyo/hqdefault.jpg","width":480,"height":360}}}]
 {"level":"info","message":"https://www.youtube.com/watch?v=3BBsF7VIQyo","timestamp":"2018-04-18T20:01:06.531Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T21:48:30.274Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T21:48:30.276Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T21:49:05.501Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T21:49:05.503Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T21:55:33.492Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T21:55:33.493Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T22:09:41.529Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T22:09:41.531Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T22:12:00.767Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T22:12:00.769Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T22:12:38.499Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T22:12:38.500Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T22:16:27.158Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T22:16:27.159Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T22:52:12.046Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T22:52:12.047Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-18T22:52:20.533Z"}
