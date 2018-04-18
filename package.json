@@ -1,0 +1,12 @@
+{
+  "name": "testbot",
+  "version": "1.0.0",
+  "description": "A test Discord bot",
+  "main": "bot.js",
+  "author": "Ruihan Wang",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.3.2",
+    "winston": "^2.4.1"
+  }
+}
