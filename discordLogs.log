@@ -141,3 +141,41 @@
 {"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:42:26.863Z"}
 {"level":"info","message":"found the video","timestamp":"2018-04-19T00:42:31.926Z"}
 {"level":"info","message":"Playing","timestamp":"2018-04-19T00:42:32.568Z"}
+{"level":"info","message":"Ended","timestamp":"2018-04-19T00:44:16.887Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:45:10.213Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:45:10.216Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:45:17.638Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:45:18.371Z"}
+{"level":"info","message":"Ended","timestamp":"2018-04-19T00:45:34.554Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:45:40.401Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:45:40.872Z"}
+{"level":"info","message":"Paused","timestamp":"2018-04-19T00:46:09.784Z"}
+{"level":"info","message":"Ended","timestamp":"2018-04-19T00:46:14.885Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:49:37.021Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:49:37.023Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:50:07.705Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:50:08.393Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:50:40.415Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:50:40.426Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:53:55.995Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:53:56.008Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:57:45.413Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:57:45.424Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:58:56.677Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:58:56.690Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:59:11.847Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:59:11.862Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:59:33.277Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:59:33.291Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:59:52.250Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:59:52.265Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T01:01:25.404Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T01:01:25.419Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T01:02:18.631Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T01:02:18.645Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T01:03:20.914Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T01:03:20.928Z"}
+{"level":"info","message":"Ended","timestamp":"2018-04-19T01:03:24.064Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T01:03:34.280Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T01:03:34.974Z"}
+{"level":"info","message":"Ended","timestamp":"2018-04-19T01:12:31.196Z"}

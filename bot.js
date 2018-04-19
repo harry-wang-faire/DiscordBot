@@ -11,6 +11,7 @@ var bot = new Discord.Client();
 bot.login(auth.token);
 const broadcast = bot.createVoiceBroadcast();
 
+// To add the bot to you server goto https://discordapp.com/oauth2/authorize?client_id=YOUR_ID&scope=bot
 
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
@@ -83,7 +84,7 @@ bot.on('message', function(message) {
 			case 'end':
 				dispatcher.end();
 				logger.info("Ended");
-				message.member.voiceChannel.quit();
+				message.member.voiceChannel.leave();
 				break;	
 			case 'resume':
 				dispatcher.resume();
