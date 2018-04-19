@@ -7,19 +7,17 @@ var bodyparser = require('body-parser');
 var jsonparse = require('json-parse');
 var fs = require('fs');
 var ytdl = require('ytdl-core');
-var mongoClient = require('mongodb').MongoClient;
-var connectionString = "mongodb+srv://admin:admin@bambooalbum-zokjp.mongodb.net/test";
+var bot = new Discord.Client();
+bot.login(auth.token);
+const broadcast = bot.createVoiceBroadcast();
+
 
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
     colorize: true
 });
-
 logger.add(logger.transports.File, { filename: 'discordLogs.log' });
-
 logger.level = 'debug';
-var bot = new Discord.Client();
-bot.login(auth.token);
 
 
 var search_opts = {
@@ -27,31 +25,30 @@ var search_opts = {
 	key: 'AIzaSyDMZFukDb8l8UaVa8EtQqUKm22vjzPGItU' 
 	};
 
-function playMusic(args){
-	mongoClient.connect(connectionString, function(err,db){
-	var dbo = db.db("playlist");
+function playMusic(args,message){
+
 	var search_query = args.slice(0);
 	search_query.splice(0,1);
 	if (isChinese(args[1])){
 		search_query = args[1];
 	}else{
-		search_query = search_query.toString();
+		search_query = search_query.join(' ');
 	}
-	dbo.collection("pl1").findOne({musicName: search_query},function(err,result){
-		if (result === null){
 		search(search_query,search_opts,function(err,result){
 		if (err) logger.error('Error while searching');
 		else logger.info("found the video");
 		var link = result[0].link;
-		ytdl(link).pipe(fs.createWriteStream('/music/'+ args + '.flv'));
+		message.member.voiceChannel.join()
+			.then(function(connection){
+				const stream = ytdl(link, { filter : 'audioonly' });
+				 dispatcher = connection.playStream(stream);
+				 logger.info("Playing");
+				})
+			.catch(console.error);
 	});
 
-	}else{
-
-	}	
-	});
-	});
 }
+ var dispatcher = null;
 
 bot.on('ready',function(evt){
 	logger.info('Connected');
@@ -68,11 +65,28 @@ bot.on('message', function(message) {
   		//								.catch(console.error);;
 		switch(cmd){
 			case 'test':
-				message.channel.send('This is a test');
-				//console.log(message.channel.guild);
+			message.member.voiceChannel.join()
+			.then(function(connection){
+				const stream = ytdl("https://www.youtube.com/watch?v=WifuIg4PhHw", { filter : 'audioonly' });
+				 dispatcher = connection.playStream(stream);
+				 logger.info("Playing");
+				})
+			.catch(console.error);
 				break;
 			case 'play':
-				playMusic(args);
+				playMusic(args,message);
+				break;
+			case 'pause':
+				dispatcher.pause();
+				logger.info("Paused");
+				break;
+			case 'end':
+				dispatcher.end();
+				logger.info("Ended");
+				message.member.voiceChannel.quit();
+				break;	
+			case 'resume':
+				dispatcher.resume();
 				break;
 			case 'avatar':
 				message.reply(message.author.avatarURL);

@@ -76,3 +76,68 @@
 {"level":"info","message":"Connected","timestamp":"2018-04-18T22:52:12.046Z"}
 {"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T22:52:12.047Z"}
 {"level":"info","message":"found the video","timestamp":"2018-04-18T22:52:20.533Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T22:54:32.923Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T22:54:32.924Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-18T22:54:39.108Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T22:59:26.693Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T22:59:26.694Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-18T22:59:36.318Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-18T23:00:03.223Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T23:25:52.821Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T23:25:52.823Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T23:38:28.707Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T23:38:28.709Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T23:40:28.715Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T23:40:28.717Z"}
+{"level":"info","message":"Collection {}","timestamp":"2018-04-18T23:40:31.534Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T23:47:05.358Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T23:47:05.360Z"}
+{"level":"info","message":"Collection {\n  '435979899237564439' => VoiceConnection {\n  domain: null,\n  _events: { closing: [Object], failed: [Object], authenticated: [Object] },\n  _eventsCount: 3,\n  _maxListeners: undefined,\n  voiceManager: ClientVoiceManager { client: [Object], connections: [Circular] },\n  client: \n   Client {\n     domain: null,\n     _events: [Object],\n     _eventsCount: 4,\n     _maxListeners: 10,\n     options: [Object],\n     rest: [Object],\n     dataManager: [Object],\n     manager: [Object],\n     ws: [Object],\n     resolver: [Object],\n     actions: [Object],\n     voice: [Object],\n     shard: null,\n     users: [Object],\n     guilds: [Object],\n     channels: [Object],\n     presences: Collection {},\n     user: [Object],\n     readyAt: 2018-04-18T23:47:05.350Z,\n     broadcasts: [Array],\n     pings: [Array],\n     _timeouts: [Object],\n     _intervals: [Object] },\n  prism: Prism { transcoder: [Object] },\n  channel: \n   VoiceChannel {\n     type: 'voice',\n     id: '435979899237564444',\n     name: 'General',\n     position: 0,\n     parentID: '435979899237564443',\n     permissionOverwrites: Collection {},\n     bitrate: 64,\n     userLimit: 0,\n     guild: [Object],\n     members: [Object] },\n  status: 2,\n  speaking: false,\n  receivers: [],\n  authentication: {},\n  player: \n   AudioPlayer {\n     domain: null,\n     _events: [Object],\n     _eventsCount: 2,\n     _maxListeners: undefined,\n     voiceConnection: [Circular],\n     prism: [Object],\n     streams: Collection {},\n     currentStream: {},\n     streamingData: [Object] },\n  ssrcMap: Map {},\n  sockets: {},\n  connectTimeout: \n   Timeout {\n     _called: false,\n     _idleTimeout: 15000,\n     _idlePrev: [Object],\n     _idleNext: [Object],\n     _idleStart: 13408,\n     _onTimeout: [Function],\n     _timerArgs: undefined,\n     _repeat: null,\n     _destroyed: false,\n     [Symbol(asyncId)]: 80,\n     [Symbol(triggerAsyncId)]: 33 } } }","timestamp":"2018-04-18T23:47:14.873Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T23:48:02.445Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T23:48:02.447Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-18T23:48:33.464Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T23:50:47.953Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T23:50:47.955Z"}
+{"level":"info","message":"Collection {\n  '435979899237564439' => VoiceConnection {\n  domain: null,\n  _events: { closing: [Object], failed: [Object], authenticated: [Object] },\n  _eventsCount: 3,\n  _maxListeners: undefined,\n  voiceManager: ClientVoiceManager { client: [Object], connections: [Circular] },\n  client: \n   Client {\n     domain: null,\n     _events: [Object],\n     _eventsCount: 4,\n     _maxListeners: 10,\n     options: [Object],\n     rest: [Object],\n     dataManager: [Object],\n     manager: [Object],\n     ws: [Object],\n     resolver: [Object],\n     actions: [Object],\n     voice: [Object],\n     shard: null,\n     users: [Object],\n     guilds: [Object],\n     channels: [Object],\n     presences: Collection {},\n     user: [Object],\n     readyAt: 2018-04-18T23:50:47.942Z,\n     broadcasts: [Array],\n     pings: [Array],\n     _timeouts: [Object],\n     _intervals: [Object] },\n  prism: Prism { transcoder: [Object] },\n  channel: \n   VoiceChannel {\n     type: 'voice',\n     id: '435979899237564444',\n     name: 'General',\n     position: 0,\n     parentID: '435979899237564443',\n     permissionOverwrites: Collection {},\n     bitrate: 64,\n     userLimit: 0,\n     guild: [Object],\n     members: [Object] },\n  status: 2,\n  speaking: false,\n  receivers: [],\n  authentication: {},\n  player: \n   AudioPlayer {\n     domain: null,\n     _events: [Object],\n     _eventsCount: 2,\n     _maxListeners: undefined,\n     voiceConnection: [Circular],\n     prism: [Object],\n     streams: Collection {},\n     currentStream: {},\n     streamingData: [Object] },\n  ssrcMap: Map {},\n  sockets: {},\n  connectTimeout: \n   Timeout {\n     _called: false,\n     _idleTimeout: 15000,\n     _idlePrev: [Object],\n     _idleNext: [Object],\n     _idleStart: 5389,\n     _onTimeout: [Function],\n     _timerArgs: undefined,\n     _repeat: null,\n     _destroyed: false,\n     [Symbol(asyncId)]: 80,\n     [Symbol(triggerAsyncId)]: 33 } } }","timestamp":"2018-04-18T23:50:52.148Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T23:54:38.313Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T23:54:38.314Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-18T23:58:02.756Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-18T23:58:02.758Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:02:31.547Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:02:31.548Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:07:29.183Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:07:29.185Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:10:35.883Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:10:35.884Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:19:53.314Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:19:53.316Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:20:50.307Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:20:50.309Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:26:50.068Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:26:50.070Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:29:26.922Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:29:26.923Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:30:02.263Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:30:02.266Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:30:21.879Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:30:21.881Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:32:46.553Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:32:46.554Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:32:55.078Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:32:55.080Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:33:19.000Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:33:19.002Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:35:09.690Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:35:09.692Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:35:22.534Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:38:53.406Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:38:53.407Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:38:56.946Z"}
+{"level":"info","message":"Paused","timestamp":"2018-04-19T00:39:03.678Z"}
+{"level":"info","message":"Ended","timestamp":"2018-04-19T00:39:14.584Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:41:59.729Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:41:59.731Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T00:42:26.861Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T00:42:26.863Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T00:42:31.926Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T00:42:32.568Z"}
