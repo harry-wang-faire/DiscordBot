@@ -179,3 +179,54 @@
 {"level":"info","message":"found the video","timestamp":"2018-04-19T01:03:34.280Z"}
 {"level":"info","message":"Playing","timestamp":"2018-04-19T01:03:34.974Z"}
 {"level":"info","message":"Ended","timestamp":"2018-04-19T01:12:31.196Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:25:12.548Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:25:12.549Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:26:00.381Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:26:00.382Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:27:21.615Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:27:21.623Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:31:02.884Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:31:02.886Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:31:28.410Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:31:28.411Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:32:50.713Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:32:50.715Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:33:39.563Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:33:39.564Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:38:31.340Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:38:31.342Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T15:40:04.128Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:41:55.804Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:41:55.806Z"}
+{"level":"info","message":"found the video","timestamp":"2018-04-19T15:42:02.013Z"}
+{"level":"error","message":"Error while searchingthe error is TypeError: Cannot read property 'join' of undefined","timestamp":"2018-04-19T15:42:02.014Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:43:30.499Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:43:30.500Z"}
+["丑八怪"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T15:43:36.398Z"}
+{"level":"error","message":"Error while searching and the error is TypeError: Cannot read property 'join' of undefined","timestamp":"2018-04-19T15:43:36.399Z"}
+["hush","hush"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T15:44:14.109Z"}
+{"level":"error","message":"Error while searching and the error is TypeError: Cannot read property 'join' of undefined","timestamp":"2018-04-19T15:44:14.110Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-19T15:44:46.788Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-19T15:44:46.789Z"}
+["凉凉"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T20:27:32.510Z"}
+["hush","hush"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T20:28:03.051Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T20:28:03.164Z"}
+["凉凉"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T20:28:17.166Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T20:28:17.197Z"}
+["凉凉"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T20:29:35.713Z"}
+["凉凉"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T20:30:23.986Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T20:30:24.016Z"}
+["凉凉"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T20:30:55.078Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T20:30:55.105Z"}
+["刚好遇见你"]
+{"level":"info","message":"found the video","timestamp":"2018-04-19T20:45:11.791Z"}
+{"level":"info","message":"Playing","timestamp":"2018-04-19T20:45:11.837Z"}
+{"level":"info","message":"Ended","timestamp":"2018-04-19T20:46:00.080Z"}
