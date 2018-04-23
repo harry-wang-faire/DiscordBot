@@ -230,3 +230,7 @@
 {"level":"info","message":"found the video","timestamp":"2018-04-19T20:45:11.791Z"}
 {"level":"info","message":"Playing","timestamp":"2018-04-19T20:45:11.837Z"}
 {"level":"info","message":"Ended","timestamp":"2018-04-19T20:46:00.080Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-23T14:51:03.343Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-23T14:51:03.343Z"}
+{"level":"info","message":"Connected","timestamp":"2018-04-23T14:54:42.107Z"}
+{"level":"info","message":"Logged in as: test-bot","timestamp":"2018-04-23T14:54:42.107Z"}

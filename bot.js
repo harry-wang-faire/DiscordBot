@@ -10,6 +10,7 @@ var ytdl = require('ytdl-core');
 var bot = new Discord.Client();
 bot.login(auth.token);
 const broadcast = bot.createVoiceBroadcast();
+var dispatcher = null;
 
 // To add the bot to you server goto https://discordapp.com/oauth2/authorize?client_id=YOUR_ID&scope=bot
 
@@ -60,16 +61,14 @@ function playMusic(args,message){
 	message.channel.send("You are not in any Voice channel!");
 }
 }
- var dispatcher = null;
+
 
 bot.on('ready',function(evt){
 	logger.info('Connected');
 	logger.info('Logged in as: ' + bot.user.username);
 });
 
-dispatcher.on('end',function(){
 
-});
 bot.on('message', function(message) {
 	//console.log(message.content);
 	if(message.content.substring(0,1) === '$'){
@@ -84,6 +83,13 @@ bot.on('message', function(message) {
 			.then(function(connection){
 				const stream = ytdl("https://www.youtube.com/watch?v=WifuIg4PhHw", { filter : 'audioonly' });
 				 dispatcher = connection.playStream(stream);
+				 dispatcher.on('end',function(){
+				playMusic(pl[0],message);
+				pl.splice(0,1);
+				playList.splice(0,1);
+				logger.info("A song has finished");
+				PlayMusic(pl[0],message);
+				});
 				 logger.info("Playing");
 				})
 			.catch(console.error);
@@ -133,7 +139,7 @@ bot.on('message', function(message) {
 				else {
 					playMusic(pl[0],message);
 					pl.splice(0,1);
-					playlist.splice(0,1);
+					playList.splice(0,1);
 					logger.info("Skipped a song");
 					playMusic(pl[0],message);
 				}
@@ -148,8 +154,6 @@ bot.on('message', function(message) {
 				}
 			}
 				break;
-
-
 		}
 	}
 });
