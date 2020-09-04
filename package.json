@@ -14,7 +14,7 @@
     "json-parse": "^1.0.3",
     "mongo": "^0.1.0",
     "mongod": "^2.0.0",
-    "mongodb": "^3.0.7",
+    "mongodb": "^3.1.13",
     "nodemon": "^1.17.3",
     "opusscript": "0.0.6",
     "winston": "^2.4.1",
